@@ -25,7 +25,7 @@
     
     <div class="controls-container">
         <label for="file-selector" class="file-upload">Load</label>
-        <input type='file' id='file-selector' accept=".mid" oninput="loadFile()">
+        <input type='file' id='file-selector' accept=".mid,.mp3" oninput="loadFile()">
 
         <label for="save-recording" class="file-upload" onclick="save()">Save</label>
         
@@ -62,6 +62,7 @@
     <script src="options.js"></script>
     <script src="visualize.js"></script>
     <script src="midi.js"></script>
+    <script src="audioHandler.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
